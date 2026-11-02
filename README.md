@@ -65,7 +65,7 @@ de l'utilisateur (ex: score, carburant restant, rotation, etc)
 - Méthodes clés :
   - ``__init__(configuration: ConfigAlunisseurJeu)``: initialise une nouvelle à partir des propriétés contenues dans l'objet de type ConfigAlunisseurJeu
   - ``generer_nouveau_jeu()``: construit la QGraphicsScene, crée et ajoute les items
-    - La scene doit utiliser un arrière-plan noir
+    - La scene doit utiliser un arrière-plan d'une couleur autre que celle par défaut (i.e. doit utiliser un fill()) ou un PixMap d'arrière-plan.
     - ajoute le ``Sol``
     - ajoute l'alunisseur
       - position initiale
