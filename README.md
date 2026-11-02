@@ -14,7 +14,7 @@ sont habituellement excentrés pour créer une rotation du module.
 ![Capture d'écran](capture.png)
 
 ## Termes
-- HUD: *Head-Up Display* (affichage tête haute): Terme utilisé pour représenter les informations afficher dans le champ visuel
+- HUD: *Head-Up Display* (affichage tête haute): Terme utilisé pour représenter les informations affichées dans le champ visuel
 de l'utilisateur (ex: score, carburant restant, rotation, etc)
 
 ## Survol des classes
@@ -46,7 +46,9 @@ de l'utilisateur (ex: score, carburant restant, rotation, etc)
     - Doit présenter une interface graphique à votre choix pour modifier les propriétés de votre objet ``ConfigAlunisseurJeu``
   - ``Quitter``
     - Quitter l'application
+    - Il doit y avoir un séparateur avant le menu ``Quitter``
 - Ajouter un titre et une icône à l'application
+  - Titre et icône de votre choix
 
 ### ConfigAlunisseurJeu (5 points)
 - Contient les paramètres de configuration du jeu
@@ -102,7 +104,7 @@ de l'utilisateur (ex: score, carburant restant, rotation, etc)
     - ``TERMINE``: jeu terminé après que le joueur a soit fait un "crash" ou a gagné
     
 
-### Alunisseur (25 points)
+### Alunisseur (20 points)
 - Représente le vaisseau : 
   - propriétés physiques
     - direction
@@ -147,7 +149,7 @@ de l'utilisateur (ex: score, carburant restant, rotation, etc)
     - doivent être reliées entre elles par des lignes
 - Doit être en blanc ou une couleur visible
 
-### HudItem (5 points)
+### HudItem (10 points)
 - Wrapper pour un QGraphicsTextItem : crée l'item texte et définit sa couleur par défaut (blanc).
 - Utilisé pour afficher:
   - carburant
@@ -167,6 +169,8 @@ de l'utilisateur (ex: score, carburant restant, rotation, etc)
 
 ## Instructions
 - Implémenter toutes les classes et méthodes décrites ci-haut
+- ``AlunisseurApp`` doit être dans le module ``alunisseur_app.py``
+  - Toutes les autres classes doivent être dans des modules séparés.
 - Pour ce TP, vous avez le droit de modifier les signatures de méthodes
   - Attention: si votre code devient bizarrement structuré ou incompréhensible, des point seront déduits
   - Les commentaires sont toujours utiles
@@ -187,4 +191,5 @@ de l'utilisateur (ex: score, carburant restant, rotation, etc)
 ## Points Bonis
 - Des possibilités de points bonis pourraient être communiquées d'ici la remise du TP
 - Vous pouvez ajouter des fonctionnalités supplémentaires en autant que celles requises soient respectées
-  - Ces fonctionnalités de votre cru pourraient faire l'objet de points bonis 
+  - Ces fonctionnalités de votre cru pourraient faire l'objet de points bonis
+  - Si la modification d'un requis fonctionnel obligatoire est nécessaire pour une fonctionnalité "cool", me contacter par MIO.
