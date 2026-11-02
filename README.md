@@ -96,7 +96,9 @@ de l'utilisateur (ex: score, carburant restant, rotation, etc)
         - Sinon, il réussi son atterrissage
           - Le joueur a gagné
           - Afficher une nouvelle "Scene" de victoire pour le féliciter en indiquant son score
-            - Son score est la quantité de carburant restante
+            - Son score est la quantité restante de carburant
+          - Le design de la "Scene" est laissé à votre discrétion
+            - Possibilité de points bonus pour quelque chose hors de l'ordinaire
   - ``Etat``: classe interne contenant des variables de classe pour l'état du jeu 
     - ``PRÊT``: nouveau jeu initialisé, prêt à débuter
     - ``EN_COURS``: jeu en cours d'exécution
