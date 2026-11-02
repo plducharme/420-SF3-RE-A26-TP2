@@ -195,3 +195,7 @@ de l'utilisateur (ex: score, carburant restant, rotation, etc)
 - Vous pouvez ajouter des fonctionnalités supplémentaires en autant que celles requises soient respectées
   - Ces fonctionnalités de votre cru pourraient faire l'objet de points bonis
   - Si la modification d'un requis fonctionnel obligatoire est nécessaire pour une fonctionnalité "cool", me contacter par MIO.
+
+## Suspicion d'utilisation de l'IA
+Si je suspecte que l'IA a été utilisée en partie pour le code, je me réserve le droit de convoquer l'équipe et
+l'équipe devra être en mesure d'expliquer le code.
